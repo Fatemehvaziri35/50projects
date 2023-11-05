@@ -120,5 +120,18 @@ h4{
     cursor: pointer;
 }
 #replay span:after{
-   
+   position: absolute;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+   opacity: 0;
+   content: '\00bb';
+
 }
+#replay :hover span{
+    padding-right: 25px;
+ }
+ #replay :hover span:after{
+    opacity: 1;
+    right: 0;
+ }
