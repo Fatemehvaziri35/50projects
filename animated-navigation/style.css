@@ -6,10 +6,10 @@ body {
     background-color: #eafbff;
     background-image: linear-gradient(
       to bottom,
-      #eafbff 0%,
-      #eafbff 50%,
-      #5290f9 50%,
-      #5290f9 100%
+      #BEADFA 0%,
+      #BEADFA 50%,
+      #FFF8C9 50%,
+      #FFF8C9 100%
     );
     font-family: 'Muli', sans-serif;
     display: flex;
@@ -61,9 +61,10 @@ body {
   
   nav ul a {
     position: relative;
-    color: #000;
+    color: #610C9F;
     text-decoration: none;
     margin: 0 10px;
+    font-style: italic;
   }
   
   .icon {
@@ -81,7 +82,7 @@ body {
   }
   
   .icon .line {
-    background-color: #5290f9;
+    background-color: #610C9F;
     height: 2px;
     width: 20px;
     position: absolute;
