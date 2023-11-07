@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #363062;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+button{
+    background-color: #818FB4;
+    width: 150px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    color: #F5E8C7;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    padding: 20px 30px;
+}
+button:focus{
+    outline: none;
+}
+button .circle{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #F5E8C7;
+    transform: translate(-50% ,-50%) scale(0);
+    animation: scale 0.5 ease-out;
+}
+
+@keyframes scale{
+    to{
+        transform: translate(-50% ,-50%) scale(3);
+        opacity: 0;
+    }
+}
