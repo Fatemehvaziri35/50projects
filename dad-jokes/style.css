@@ -12,8 +12,8 @@ body{
 }
 .container{
    background-color: #FFFFDD;
-   height: 350px;
-   width: 600px;
+   height: 450px;
+   width: 800px;
    display: flex;
    flex-direction: column;
    /* justify-content: center; */
@@ -26,11 +26,11 @@ h3{
    color: gray;
 }
 .joke{
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 20px;
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: 1px;
-    margin: 50px auto;
+    padding: 0 40px;
 }
 .btn{
     border: none;
@@ -40,7 +40,7 @@ h3{
     border-radius: 4px;
     color: #FFFFDD;
     font-size: 18px;
-    margin-top: 50px;
+    margin-top: 120px;
     cursor: pointer;
 }
 .btn .active{
