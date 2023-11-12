@@ -35,3 +35,48 @@ body{
     margin-top: -30px;
 
 }
+.right-slide{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    top: 0;
+    left: 150%;
+    transition: transform 0.5s ease-in-out;
+    
+}
+.right-slide>div{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+button{
+    background-color: #fff;
+    color: gray;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    z-index: 100;
+}
+button:hover{
+    color: black;
+}
+button:focus{
+    outline: none;
+}
+.down-button{
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.up-button{
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
