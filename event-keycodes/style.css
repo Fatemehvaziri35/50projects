@@ -9,10 +9,11 @@ body{
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    background-color: #F6E5E5;
 }
 .key{
-    border: 1px solid #999999;
-    background-color: #2B2B2B;
+    border: none;
+    background-color: #9F609C;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     display: inline-flex;
     align-items: center;
@@ -31,6 +32,6 @@ body{
     left: 0;
     text-align: center;
     width: 100%;
-    color: #c4c4c4;
+    color: #E4D183;
     font-size: 14px;
 }
