@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #900C3F;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    color: aliceblue;
+}
+.user-form{
+    width: 100%;
+    max-width: 700px;
+}
+.user-form input{
+    background-color: #F94C10;
+    display: block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 2rem;
+
+}
+.user-form input::placeholder{
+    color: #F8DE22;
+}
+.user-form input:focus{
+   outline: none;
+}
+.card{
+    max-width: 800px;
+    display: flex;
+    background-color: #F94C10;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border: 20px solid #900C3F;
+    border-radius: 50%;
+}
+.user-info{
+    color: #F8DE22;
+    margin-left: 20px;
+}
+.user-info h1{
+   margin-top: 0;
+}
+.user-info ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+}
+.user-info ul li{
+    display: flex;
+    align-items: center;
+}
+.user-info ul li strong{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.repo{
+    display: inline-block;
+    background-color: #900C3F;
+    text-decoration: none;
+    color: #F8DE22;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+@media (max-width: 500px) {
+    .card {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .user-form {
+      max-width: 400px;
+    }
+  }
